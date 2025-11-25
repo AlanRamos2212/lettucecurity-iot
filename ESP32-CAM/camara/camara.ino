@@ -34,8 +34,8 @@
 
 // ==================== CONFIGURACIÓN ====================
 const int UMBRAL_LUZ = 1500;                    // >1500 = poca luz
-const unsigned long INTERVALO_FOTO = 30000;     // 30 seg (cambiar a 5min en producción)
-// const unsigned long INTERVALO_FOTO = 5UL * 60UL * 1000UL;
+//const unsigned long INTERVALO_FOTO = 30000;     // 30 seg (cambiar a 5min en producción)
+const unsigned long INTERVALO_FOTO = 5UL * 60UL * 1000UL;
 
 unsigned long ultimaFoto = 0;
 
